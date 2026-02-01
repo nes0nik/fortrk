@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortran — Легендарный язык научных вычислений</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span class="logo-letter">F</span>
+                    <span class="logo-letter">O</span>
+                    <span class="logo-letter">R</span>
+                    <span class="logo-letter">T</span>
+                    <span class="logo-letter">R</span>
+                    <span class="logo-letter">A</span>
+                    <span class="logo-letter">N</span>
+                </div>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#visitenkarte">Визитка</a></li>
+                    <li><a href="#history">История</a></li>
+                    <li><a href="#resources">Ресурсы</a></li>
+                    <li><a href="#features">Особенности</a></li>
+                    <li><a href="#applications">Применение</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Визитка -->
+    <section id="visitenkarte" class="visitenkarte">
+        <div class="container">
+            <div class="section-title">
+                
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>FORTRAN </h3>
+                    <p>Fortran (Formula Translation) — первый коммерчески доступный язык программирования высокого уровня, разработанный командой IBM под руководством Джона Бэкуса в 1957 году.</p>
+                    <p>Изначально создавался для научных и инженерных расчётов, что определило его математическую ориентированность и эффективность работы с массивами и матрицами.</p>
+                    
+                    <div class="key-facts">
+                        <div class="fact">   
+                            <h4>Первый в мире</h4>
+                            <p>Первый высокоуровневый язык программирования</p>
+                            <img src="./images/КАРТА.jpg" style="width: 200px; height: 150px; object-fit: cover;">
+                        </div>
+                        <div class="fact">
+                            <h4>Высокая скорость</h4>
+                            <p>Оптимизирован для математических вычислений</p>
+                            <img src="./images/877c4f6s-960.jpg" style="width: 200px; height: 150px; object-fit: cover;">
+                        </div>
+                        <div class="fact">
+                            <h4>Наследие</h4>
+                            <p>Миллионы строк legacy-кода</p>
+                            <img src="./images/images.jpg" style="width: 200px; height: 150px; object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- История -->
+    <section id="history" class="history">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="title-history">Краткая история создания</h2>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-year">1954-1957</div>
+                    <div class="step-content">
+                        <h3>Рождение Fortran</h3>
+                        <p>Команда IBM под руководством Джона Бэкуса начинает разработку языка, который должен был заменить трудоёмкое программирование на ассемблере для научных расчётов.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-year">1957</div>
+                    <div class="step-content">
+                        <h3>Fortran I</h3>
+                        <p>Первый компилятор Fortran выпущен для IBM 704. Компилятор создавал код, сравнимый по эффективности с ручным программированием на ассемблере.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-year">1958</div>
+                    <div class="step-content">
+                        <h3>Fortran II</h3>
+                        <p>Добавлена поддержка подпрограмм и функций, что сделало язык более модульным и удобным для создания больших программ.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-year">1962</div>
+                    <div class="step-content">
+                        <h3>Fortran IV</h3>
+                        <p>Стандартизация языка. Убраны машинно-зависимые особенности, что позволило переносить программы между разными компьютерами.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-year">1966</div>
+                    <div class="step-content">
+                        <h3>Fortran 66</h3>
+                        <p>Первый официальный стандарт ANSI. Установлены базовые конструкции языка, которые сохранились до наших дней.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">6</div>
+                    <div class="step-year">1978-2023</div>
+                    <div class="step-content">
+                        <h3>Современные стандарты</h3>
+                        <p>Fortran 77, 90, 95, 2003, 2008, 2018. Каждая версия добавляла новые возможности: модули, ООП, параллельные вычисления, совместимость с C.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Особенности -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="title-features">Ключевые особенности Fortran</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Производительность</h3>
+                    <p>Оптимизирован для математических операций с массивами. Компиляторы генерируют исключительно эффективный машинный код.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Многомерные массивы</h3>
+                    <p>Встроенная поддержка многомерных массивов и операций над ними целиком (array operations).</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Численная точность</h3>
+                    <p>Поддержка чисел с произвольной точностью и комплексных чисел на уровне языка.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Совместимость</h3>
+                    <p>Обратная совместимость между версиями. Код 60-х годов может компилироваться современными компиляторами.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Параллелизм</h3>
+                    <p>Встроенные конструкции для параллельных вычислений (Coarrays, DO CONCURRENT).</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Наследие и развитие</h3>
+                    <p>Миллионы строк проверенного кода сочетаются с современными возможностями (ООП, generics).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Применение -->
+    <section id="applications" class="applications">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="title-applications">Сферы применения Fortran сегодня</h2>
+            </div>
+            
+            <div class="spheres-container">
+                <!-- Линии соединения -->
+                <div class="connection-lines">
+                    <div class="connection-line" style="top: 50%; left: 20%; width: 100px; transform: rotate(30deg);"></div>
+                    <div class="connection-line" style="top: 40%; left: 40%; width: 120px; transform: rotate(-20deg);"></div>
+                    <div class="connection-line" style="top: 60%; left: 50%; width: 90px; transform: rotate(45deg);"></div>
+                </div>
+                
+                <!-- Шар 1 - Климатика -->
+                <div class="sphere sphere-1">
+                    <div class="sphere-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3>Климатика</h3>
+                    <p>Климатическое моделирование и прогнозы</p>
+                </div>
+                
+                <!-- Шар 2 - Физика -->
+                <div class="sphere sphere-2">
+                    <div class="sphere-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3>Физика</h3>
+                    <p>Квантовые расчёты и симуляции</p>
+                </div>
+                
+                <!-- Шар 3 - Космос -->
+                <div class="sphere sphere-3">
+                    <div class="sphere-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Космос</h3>
+                    <p>Аэрокосмические расчёты NASA/ESA</p>
+                </div>
+                
+                <!-- Шар 4 - Финансы -->
+                <div class="sphere sphere-4">
+                    <div class="sphere-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Финансы</h3>
+                    <p>Высокочастотный трейдинг</p>
+                </div>
+                
+                <!-- Шар 5 - Инженерия -->
+                <div class="sphere sphere-5">
+                    <div class="sphere-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Инженерия</h3>
+                    <p>Расчёты прочности и CFD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ресурсы -->
+    <section id="resources" class="resources">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="title-resources">Ресурсы для изучения Fortran</h2>
+            </div>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Modern Fortran</h3>
+                        <p>Лучшая современная книга по Fortran 2008/2018. Подробное руководство с примерами.</p>
+                        <a href="https://www.manning.com/books/modern-fortran" target="_blank" class="resource-link">Читать онлайн →</a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Fortran Wiki</h3>
+                        <p>Сообщество разработчиков Fortran с учебными материалами, примерами и FAQ.</p>
+                        <a href="https://fortranwiki.org" target="_blank" class="resource-link">Посетить сайт →</a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Quickstart Tutorial</h3>
+                        <p>Быстрый старт для программистов, знакомых с другими языками.</p>
+                        <a href="https://fortran-lang.org/learn/quickstart" target="_blank" class="resource-link">Начать обучение →</a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Fortran-lang.org</h3>
+                        <p>Официальное сообщество современного Fortran с форумом и пакетами.</p>
+                        <a href="https://fortran-lang.org" target="_blank" class="resource-link">Присоединиться →</a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Компиляторы</h3>
+                        <p>GNU Fortran (gfortran), Intel Fortran, NAG Fortran. Бесплатные и коммерческие варианты.</p>
+                        <a href="https://gcc.gnu.org/fortran/" target="_blank" class="resource-link">Скачать gfortran →</a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Исторические материалы</h3>
+                        <p>Оригинальная документация Fortran I, статьи Джона Бэкуса, исторический контекст.</p>
+                        <a href="https://archive.computerhistory.org/resources/text/Fortran/" target="_blank" class="resource-link">Изучить историю →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="https://fortran-lang.org" target="_blank">Современный Fortran</a>
+                    <a href="https://gcc.gnu.org/fortran/" target="_blank">Компилятор gfortran</a>
+                    <a href="https://fortranwiki.org" target="_blank">Fortran Wiki</a>
+                    <a href="https://en.wikipedia.org/wiki/Fortran" target="_blank">Википедия</a>
+                </div>
+                
+                
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Мобильное меню
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const navLinks = document.getElementById('navLinks');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                // Меняем иконку меню
+                const icon = mobileMenuBtn.querySelector('i');
+                if (icon.classList.contains('fa-bars')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                } else {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            });
+            
+            // Закрытие меню при клике на ссылку
+            const navItems = document.querySelectorAll('.nav-links a');
+            navItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    navLinks.classList.remove('active');
+                    // Возвращаем иконку меню
+                    const icon = mobileMenuBtn.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                });
+            });
+            
+            // Плавная прокрутка для всех ссылок с якорями
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    
+                    // Пропускаем якорь "#", который ведет на ту же страницу
+                    if (href === '#') return;
+                    
+                    e.preventDefault();
+                    
+                    const targetId = href;
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        // Закрываем мобильное меню, если оно открыто
+                        navLinks.classList.remove('active');
+                        const icon = mobileMenuBtn.querySelector('i');
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                        
+                        // Плавная прокрутка
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Подсветка текущего раздела в навигации при скролле
+            const sections = document.querySelectorAll('section');
+            const navLinksArray = document.querySelectorAll('.nav-links a');
+            
+            function highlightNavLink() {
+                let currentSection = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 100;
+                    const sectionHeight = section.clientHeight;
+                    
+                    if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                        currentSection = section.getAttribute('id');
+                    }
+                });
+                
+                navLinksArray.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${currentSection}`) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+            
+            window.addEventListener('scroll', highlightNavLink);
+            
+            // Анимация печатающегося текста для заголовков разделов
+            const sectionTitles = {
+                'visitenkarte': document.getElementById('title-visitenkarte'),
+                'history': document.getElementById('title-history'),
+                'features': document.getElementById('title-features'),
+                'applications': document.getElementById('title-applications'),
+                'resources': document.getElementById('title-resources')
+            };
+            
+            // Функция для анимации печатающегося текста
+            function typeWriter(element, text, speed = 50) {
+                if (!element || element.classList.contains('typing-complete')) return;
+                
+                element.textContent = '';
+                element.classList.add('typing');
+                
+                let i = 0;
+                
+                function typeCharacter() {
+                    if (i < text.length) {
+                        element.textContent += text.charAt(i);
+                        i++;
+                        setTimeout(typeCharacter, speed);
+                    } else {
+                        element.classList.remove('typing');
+                        element.classList.add('typing-complete');
+                    }
+                }
+                
+                typeCharacter();
+            }
+            
+            // Наблюдатель за заголовками разделов
+            const titleObserver = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const sectionId = entry.target.closest('section').id;
+                        const titleElement = sectionTitles[sectionId];
+                        
+                        if (titleElement && !titleElement.classList.contains('typing-complete')) {
+                            // Небольшая задержка перед началом анимации
+                            setTimeout(() => {
+                                typeWriter(titleElement, titleElement.dataset.originalText || titleElement.textContent);
+                            }, 300);
+                        }
+                    }
+                });
+            }, { 
+                threshold: 0.5,
+                rootMargin: '0px 0px -100px 0px'
+            });
+            
+            // Сохраняем оригинальный текст и добавляем наблюдателя
+            Object.keys(sectionTitles).forEach(sectionId => {
+                const title = sectionTitles[sectionId];
+                if (title) {
+                    title.dataset.originalText = title.textContent;
+                    titleObserver.observe(document.getElementById(sectionId));
+                }
+            });
+            
+            // Автоматически запускаем анимацию для первого заголовка
+            setTimeout(() => {
+                const firstTitle = sectionTitles['visitenkarte'];
+                if (firstTitle && !firstTitle.classList.contains('typing-complete')) {
+                    typeWriter(firstTitle, firstTitle.dataset.originalText);
+                }
+            }, 1000);
+            
+            // Анимация для шагов в блоке истории
+            const stepElements = document.querySelectorAll('.step');
+            const stepObserver = new IntersectionObserver(function(entries) {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        // Добавляем задержку для каждого шага
+                        setTimeout(() => {
+                            entry.target.classList.add('animated');
+                        }, index * 300);
+                    }
+                });
+            }, { 
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+            
+            stepElements.forEach(el => {
+                stepObserver.observe(el);
+            });
+            
+            // Анимация для остальных элементов при прокрутке
+            const animateElements = document.querySelectorAll(
+                '.feature-card, .resource-card, .fact'
+            );
+            
+            const elementObserver = new IntersectionObserver(function(entries) {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.classList.add('animated');
+                        }, index * 100);
+                    }
+                });
+            }, { 
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+            
+            animateElements.forEach(el => {
+                elementObserver.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
